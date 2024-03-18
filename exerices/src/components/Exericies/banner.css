@@ -1,0 +1,36 @@
+
+.BannerContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+   
+}
+
+
+.image1{
+    width: 100%;
+    height: 90vh;
+    background-color: aqua;
+    background-image: url('../../assets/banner/img8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    opacity: 0.5;
+    background-attachment: fixed;
+}
+
+img:hover{
+    scale: 0.9;
+    border: 10px solid rgb(236, 167, 167);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+    font-weight: bolder;
+}
